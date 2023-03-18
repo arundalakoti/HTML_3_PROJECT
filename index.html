@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML_3_PROJECT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-image: url(./assets/bg.png);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 91.5vh;
+      }
+
+      .header-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 31px 83px;
+        height: 94px;
+        background-color: #000;
+      }
+
+      .nav-links ul {
+        display: flex;
+        gap: 63px;
+        font-weight: 600;
+      }
+
+      .nav-links {
+        flex-grow: 1;
+        margin-left: 64px;
+      }
+
+      .nav-links-items {
+        color: #ffffff;
+        list-style: none;
+        cursor: pointer;
+      }
+
+      .header-nav img {
+        cursor: pointer;
+        width: 92px;
+        height: 32px;
+      }
+
+      .nav-button {
+        padding: 7px 28px;
+        background: #ba0cc5;
+        border-radius: 6px;
+        border: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+      .vertical-line {
+        border: 1px solid #ffffff;
+        height: 50px;
+        margin-left: 63px;
+        width: 1px;
+      }
+
+      .main-header {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 98px;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 172px;
+        margin: 0 auto;
+        max-width: 846px;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-description {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        color: #ffffff;
+        margin: 0 auto;
+      }
+
+      .main-button {
+        background: #ba0cc5;
+        border-radius: 11.2308px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29.9487px;
+        line-height: 45px;
+        color: #ffffff;
+        border: none;
+        padding: 14px 22px;
+        margin-top: 64px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="header-nav">
+      <img src="./assets/white-logo.png" alt="logo" />
+      <div class="vertical-line"></div>
+      <div class="nav-links">
+        <ul>
+          <li class="nav-links-items">Apps</li>
+          <li class="nav-links-items">DAO</li>
+          <li class="nav-links-items">Technology</li>
+          <li class="nav-links-items">Token</li>
+          <li class="nav-links-items">Contributors</li>
+        </ul>
+      </div>
+      <button class="nav-button">Buy 1 Token</button>
+    </nav>
+
+    <main>
+      <div class="main-header">Lets build a better tomorrow, together.</div>
+      <div class="main-description">
+        Buy 1 Token. Join the DAO. Change the world
+      </div>
+      <button class="main-button">Request Early Access</button>
+    </main>
+  </body>
+</html>
